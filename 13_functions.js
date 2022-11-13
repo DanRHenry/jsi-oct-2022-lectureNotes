@@ -83,7 +83,7 @@ function myName(firstName, lastName) {
     let fullName = firstName + ' ' + lastName;
     console.log(`Hello, my name is ${fullName}`);
     console.log(`Hello, my name is ${firstName} ${lastName}.`);
-}
+};
 myName("Dan");
 myName("Dan", "Henry");
 

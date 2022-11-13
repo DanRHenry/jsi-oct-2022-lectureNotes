@@ -122,7 +122,7 @@ let fixBuzzArray = [];
 for(let i = 0; i < 101; i++) numArray.push(i); // For loop counts to 100, and adds each number to the array 100 times
 
 numArray.map(x => {
-    if(x % 15 === 0) fixBuzzArray.push(x);
+    if(x % 15 === 0) fixBuzzArray.push(x);  // This adds values from the numArray that are divisible by 15 to the fizzBuzzArray
 })
 
 console.log(fixBuzzArray);
@@ -195,6 +195,9 @@ console.log(x, y, a, b);
 
 let arr = [];
 arr.push(1);
+
+console.log('here here ooh here');
+console.log(arr);
 
 let reference = [1];
 let refCopy = reference;
