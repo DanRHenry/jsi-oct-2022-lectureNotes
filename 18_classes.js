@@ -30,11 +30,11 @@ class Item {
     }
 }
 
-/* 
+/*   
     1. Keyword to establish what type of "function"
     2. The Name of our class. Should be Pascal Case. 
-    3. Keyword - is automatically run whne the class is instantiated.
-    4. Parameters for our constructed object. Establishes the values within the object keys.
+    3. Keyword - is automatically run when the class is instantiated.
+    4. P our constructed object. Establishes the values within the object keys.
     5. Keyword - refers to "this" specific object being created.
     6. The name of a key within our object. (Item will have 3 different keys)
     7. The value for those keys (referenced by the parameters)
