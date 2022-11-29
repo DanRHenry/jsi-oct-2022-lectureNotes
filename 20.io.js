@@ -15,12 +15,12 @@
 
 console.log('What would you like to say?'); // providing a "call to action"
 
-// 1      2    3      4      5
-// process.stdin.once('data', input => {
-// //      6
-//     console.log('stdin: ', input.toString()); // without .toString, the returned information would be in hexadecimal
-//     //
-// });
+//1      2    3      4      5
+process.stdin.once('data', input => {
+//      6
+    console.log('stdin: ', input.toString()); // without .toString, the returned information would be in hexadecimal
+    //
+});
 
 /* 
     1. targeting our process (node)
@@ -99,5 +99,4 @@ process.stdin.on("data", input => {
     } else {
         console.log(`The Machine Echoes: ${userInput}`);
     }
-    
 })

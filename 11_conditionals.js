@@ -210,8 +210,7 @@ if(age > 24) {
     console.log('You can drink!')
 } else if (age > 17) {
     console.log('You can vote!');
-}
-    else {
+} else {
     console.log(`Sorry, you're too young to do anything!`);
 }
 
