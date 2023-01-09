@@ -1,0 +1,10 @@
+#board {
+    display: grid;
+    grid-template: repeat(15,6, 6.67%)
+}
+
+#board > * {
+    /* grid-area: ; */
+    border: solid 1px black;
+    width: 10px;
+}
